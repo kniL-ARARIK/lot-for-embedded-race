@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp
+"..\..\output\startup_stm32wb55xx_cm4.o"
+"..\..\output\main.o"
+"..\..\output\stm32wbxx_it.o"
+"..\..\output\system_stm32wbxx.o"
+"..\..\output\stm32wbxx_hal.o"
+"..\..\output\stm32wbxx_hal_cortex.o"
+"..\..\output\stm32wbxx_hal_dma.o"
+"..\..\output\stm32wbxx_hal_gpio.o"
+"..\..\output\stm32wbxx_hal_uart.o"
+"..\..\output\stm32wbxx_hal_usart.o"
+"..\..\output\stm32wbxx_hal_rcc.o"
+"..\..\output\stm32wbxx_hal_rcc_ex.o"
+"..\..\output\stm32wbxx_hal_pwr.o"
+"..\..\output\stm32wbxx_hal_pwr_ex.o"
+--strict --scatter "..\..\Output\PILDIO_WB55RG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\PILDIO_WB55RG.map" -o ..\..\Output\PILDIO_WB55RG.axf
