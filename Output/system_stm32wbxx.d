@@ -9,7 +9,7 @@
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\CMSIS\Inc\mpu_armv7.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h
-..\..\output\system_stm32wbxx.o: ..\..\User\stm32wbxx_hal_conf.h
+..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\CMSIS\Inc\stm32wbxx.h
@@ -19,6 +19,7 @@
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dmamux.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma_ex.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_cortex.h
+..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_exti.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash_ex.h
 ..\..\output\system_stm32wbxx.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio.h

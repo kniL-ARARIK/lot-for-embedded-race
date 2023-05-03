@@ -629,10 +629,12 @@ ARM Macro Assembler    Page 10
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=..\..\output\startup_stm32wb55xx_cm4.d -o..\..\output\startup_s
-tm32wb55xx_cm4.o -I.\RTE\_Template -ID:\mdk\ARM\PACK\Keil\STM32WBxx_DFP\1.0.0\D
-rivers\CMSIS\Device\ST\STM32WBxx\Include -ID:\mdk\ARM\CMSIS\Include --predefine
-="__UVISION_VERSION SETA 525" --predefine="STM32WB55xx SETA 1" --list=..\..\out
-put\startup_stm32wb55xx_cm4.lst startup_stm32wb55xx_cm4.s
+tm32wb55xx_cm4.o -I"E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Project
+s\MDK_ARM\RTE" -ID:\mdk\Keil\STM32WBxx_DFP\1.0.0 -ID:\mdk\ARM\CMSIS\Include -ID
+:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include --pred
+efine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 514" --predefine="STM
+32WB55xx SETA 1" --list=..\..\output\startup_stm32wb55xx_cm4.lst startup_stm32w
+b55xx_cm4.s
 
 
 
@@ -1556,4 +1558,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-429 symbols in table
+430 symbols in table

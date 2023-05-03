@@ -1,6 +1,6 @@
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_cortex.c
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h
-..\..\output\stm32wbxx_hal_cortex.o: ..\..\User\stm32wbxx_hal_conf.h
+..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\CMSIS\Inc\stm32wbxx.h
@@ -19,6 +19,7 @@
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dmamux.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma_ex.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_cortex.h
+..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_exti.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash_ex.h
 ..\..\output\stm32wbxx_hal_cortex.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio.h
