@@ -35,3 +35,4 @@
 ..\..\output\main.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h
 ..\..\output\main.o: ..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h
 ..\..\output\main.o: ..\..\Drivers\SYSTEM\sys.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\delay.h

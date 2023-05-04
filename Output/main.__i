@@ -1,7 +1,0 @@
---c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc
--I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"
--I D:\mdk\Keil\STM32WBxx_DFP\1.0.0
--I D:\mdk\ARM\CMSIS\Include
--I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include
--D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx
--o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d "..\..\User\main.c"

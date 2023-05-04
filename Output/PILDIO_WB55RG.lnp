@@ -4,6 +4,7 @@
 "..\..\output\stm32wbxx_it.o"
 "..\..\output\system_stm32wbxx.o"
 "..\..\output\sys.o"
+"..\..\output\delay.o"
 "..\..\output\stm32wbxx_hal.o"
 "..\..\output\stm32wbxx_hal_cortex.o"
 "..\..\output\stm32wbxx_hal_dma.o"

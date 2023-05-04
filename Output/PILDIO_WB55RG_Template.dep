@@ -1,17 +1,17 @@
 Dependencies for Project 'PILDIO_WB55RG', Target 'Template': (DO NOT MODIFY !)
 F (.\startup_stm32wb55xx_cm4.s)(0x64524DB1)(--cpu Cortex-M4.fp --li --pd "__EVAL SETA 1" -g --apcs=interwork -I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32WB55xx SETA 1"--list ..\..\output\startup_stm32wb55xx_cm4.lst --xref -o ..\..\output\startup_stm32wb55xx_cm4.o --depend ..\..\output\startup_stm32wb55xx_cm4.d)
-F (..\..\User\main.c)(0x6452549D)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+F (..\..\User\main.c)(0x64531247)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
@@ -32,24 +32,25 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
-I (..\..\Drivers\SYSTEM\sys.h)(0x645254BD)
-F (..\..\User\stm32wbxx_it.c)(0x64524F85)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_it.o --omf_browse ..\..\output\stm32wbxx_it.crf --depend ..\..\output\stm32wbxx_it.d)
-I (..\..\User\main.h)(0x64524F85)
+I (..\..\Drivers\SYSTEM\sys.h)(0x645257FF)
+I (..\..\Drivers\SYSTEM\delay.h)(0x6453122E)
+F (..\..\User\stm32wbxx_it.c)(0x645257FF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_it.o --omf_browse ..\..\output\stm32wbxx_it.crf --depend ..\..\output\stm32wbxx_it.d)
+I (..\..\User\main.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -69,57 +70,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
-I (..\..\User\stm32wbxx_it.h)(0x64524F85)
-F (..\..\User\system_stm32wbxx.c)(0x644F32E7)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\system_stm32wbxx.o --omf_browse ..\..\output\system_stm32wbxx.crf --depend ..\..\output\system_stm32wbxx.d)
+I (..\..\User\stm32wbxx_it.h)(0x645257FF)
+F (..\..\User\system_stm32wbxx.c)(0x645257FF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\system_stm32wbxx.o --omf_browse ..\..\output\system_stm32wbxx.crf --depend ..\..\output\system_stm32wbxx.d)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
-I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dma.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dmamux.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma_ex.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_cortex.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_exti.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash_ex.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio_ex.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_pwr.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_exti.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
-F (..\..\Drivers\SYSTEM\sys.c)(0x645253F6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
-I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
-I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
@@ -140,23 +106,94 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
-I (..\..\Drivers\SYSTEM\sys.h)(0x645254BD)
+F (..\..\Drivers\SYSTEM\sys.c)(0x6452F505)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
+I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dma.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dmamux.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_cortex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_exti.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_pwr.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_exti.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
+I (..\..\Drivers\SYSTEM\sys.h)(0x645257FF)
+F (..\..\Drivers\SYSTEM\delay.c)(0x6453122B)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\delay.o --omf_browse ..\..\output\delay.crf --depend ..\..\output\delay.d)
+I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
+I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dma.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_dmamux.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_cortex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_exti.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_flash_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_gpio_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_pwr.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_exti.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
+I (..\..\Drivers\SYSTEM\delay.h)(0x6453122E)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal.o --omf_browse ..\..\output\stm32wbxx_hal.crf --depend ..\..\output\stm32wbxx_hal.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -176,22 +213,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_cortex.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_cortex.o --omf_browse ..\..\output\stm32wbxx_hal_cortex.crf --depend ..\..\output\stm32wbxx_hal_cortex.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -211,22 +248,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_dma.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_dma.o --omf_browse ..\..\output\stm32wbxx_hal_dma.crf --depend ..\..\output\stm32wbxx_hal_dma.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -246,22 +283,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_gpio.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_gpio.o --omf_browse ..\..\output\stm32wbxx_hal_gpio.crf --depend ..\..\output\stm32wbxx_hal_gpio.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -281,22 +318,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_uart.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_uart.o --omf_browse ..\..\output\stm32wbxx_hal_uart.crf --depend ..\..\output\stm32wbxx_hal_uart.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -316,22 +353,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_usart.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_usart.o --omf_browse ..\..\output\stm32wbxx_hal_usart.crf --depend ..\..\output\stm32wbxx_hal_usart.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -351,22 +388,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_rcc.o --omf_browse ..\..\output\stm32wbxx_hal_rcc.crf --depend ..\..\output\stm32wbxx_hal_rcc.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -386,22 +423,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_rcc_ex.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_rcc_ex.o --omf_browse ..\..\output\stm32wbxx_hal_rcc_ex.crf --depend ..\..\output\stm32wbxx_hal_rcc_ex.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -421,22 +458,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_pwr.o --omf_browse ..\..\output\stm32wbxx_hal_pwr.crf --depend ..\..\output\stm32wbxx_hal_pwr.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -456,22 +493,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_pwr_ex.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_pwr_ex.o --omf_browse ..\..\output\stm32wbxx_hal_pwr_ex.crf --depend ..\..\output\stm32wbxx_hal_pwr_ex.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -491,22 +528,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_tim.o --omf_browse ..\..\output\stm32wbxx_hal_tim.crf --depend ..\..\output\stm32wbxx_hal_tim.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -526,22 +563,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_tim_ex.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_tim_ex.o --omf_browse ..\..\output\stm32wbxx_hal_tim_ex.crf --depend ..\..\output\stm32wbxx_hal_tim_ex.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -561,23 +598,23 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_ll_rcc.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_ll_rcc.o --omf_browse ..\..\output\stm32wbxx_ll_rcc.crf --depend ..\..\output\stm32wbxx_ll_rcc.d)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_flash.o --omf_browse ..\..\output\stm32wbxx_hal_flash.crf --depend ..\..\output\stm32wbxx_hal_flash.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -597,22 +634,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_flash_ex.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_flash_ex.o --omf_browse ..\..\output\stm32wbxx_hal_flash_ex.crf --depend ..\..\output\stm32wbxx_hal_flash_ex.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -632,22 +669,22 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
 F (..\..\Drivers\STM32WBxx_HAL_Driver\Src\stm32wbxx_hal_hsem.c)(0x64524DB1)(--c99 -c --cpu Cortex-M4.fp -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I..\..\User -I..\..\Drivers -I..\..\Drivers\SYSTEM -I..\..\Drivers\CMSIS\Inc -I..\..\Drivers\STM32WBxx_HAL_Driver\Inc-I "E:\stm32 progect\stm32 wb55xx\lot-for-embedded-race\Projects\MDK_ARM\RTE"-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0-I D:\mdk\ARM\CMSIS\Include-I D:\mdk\Keil\STM32WBxx_DFP\1.0.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="514" -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o ..\..\output\stm32wbxx_hal_hsem.o --omf_browse ..\..\output\stm32wbxx_hal_hsem.crf --depend ..\..\output\stm32wbxx_hal_hsem.d)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64524F85)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_conf.h)(0x64525566)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_dma.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_def.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\CMSIS\Inc\stm32wb55xx.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\core_cm4.h)(0x645257FF)
 I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x64524DB1)
-I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x64524DB1)
+I (..\..\Drivers\CMSIS\Inc\cmsis_version.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_compiler.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\cmsis_armcc.h)(0x645257FF)
+I (..\..\Drivers\CMSIS\Inc\mpu_armv7.h)(0x645257FF)
 I (..\..\Drivers\CMSIS\Inc\system_stm32wbxx.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x64524DB1)
 I (D:\mdk\ARM\ARMCC\include\stddef.h)(0x5475F300)
@@ -667,6 +704,6 @@ I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_pwr_ex.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_rcc.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_bus.h)(0x64524DB1)
-I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x64524DB1)
+I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_hal_rcc_ex.h)(0x645257FF)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_crs.h)(0x64524DB1)
 I (..\..\Drivers\STM32WBxx_HAL_Driver\Inc\stm32wbxx_ll_system.h)(0x64524DB1)
